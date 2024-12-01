@@ -1,0 +1,72 @@
+{
+    "project": "Sistema de Gestión de Tareas",
+    "description": "Un sistema para gestionar tareas de manera eficiente, permitiendo crear, editar, eliminar y marcar tareas como completadas.",
+    "technologies": {
+      "frontend": "React.js",
+      "backend": "Node.js con Express.js",
+      "database": "MongoDB",
+      "styling": "Tailwind CSS",
+      "testing": {
+        "unit": "Jest",
+        "api": "Postman"
+      },
+      "versionControl": "Git y GitHub"
+    },
+    "objectives": [
+      "Crear una interfaz amigable y responsiva.",
+      "Asegurar una funcionalidad básica de CRUD (Crear, Leer, Actualizar, Eliminar).",
+      "Implementar un backend seguro y eficiente.",
+      "Ofrecer a los usuarios opciones de filtrado para sus tareas.",
+      "Asegurar la calidad del código mediante pruebas."
+    ],
+    "directoryStructure": {
+      "frontend": "Aplicación React (componentes, vistas, utilidades)",
+      "backend": "Servidor Node.js (modelos, rutas, controladores)",
+      "tests": "Pruebas unitarias e integración",
+      "rootFiles": ["README.md", "package.json"]
+    },
+    "features": [
+      {
+        "name": "Gestión de tareas",
+        "details": [
+          "Crear, editar y eliminar tareas.",
+          "Marcar tareas como completadas."
+        ]
+      },
+      {
+        "name": "Filtrado de tareas",
+        "details": [
+          "Filtrar tareas por estado (Pendientes/Completadas).",
+          "Ordenar tareas por fecha de vencimiento."
+        ]
+      },
+      {
+        "name": "Autenticación",
+        "status": "Planeado",
+        "details": [
+          "Soporte para múltiples usuarios con autenticación segura."
+        ]
+      }
+    ],
+    "nextSteps": [
+      "Implementar autenticación de usuarios con JWT.",
+      "Añadir notificaciones automáticas para tareas cercanas a su vencimiento.",
+      "Diseñar un tablero de análisis de tareas."
+    ],
+    "developerNotes": [
+      "Sigue las guías de estilo definidas en el archivo .eslintrc.",
+      "Usa commits descriptivos para mantener un historial claro.",
+      "Los PR (Pull Requests) deben incluir pruebas y descripciones detalladas de los cambios realizados."
+    ],
+    "resources": {
+      "React Documentation": "https://reactjs.org/docs/getting-started.html",
+      "Node.js Documentation": "https://nodejs.org/en/docs/",
+      "MongoDB Documentation": "https://www.mongodb.com/docs/",
+      "Tailwind CSS Documentation": "https://tailwindcss.com/docs"
+    },
+    "author": {
+      "name": "Girlleys Melendez",
+      "contact": "gmelend1@estudiante.ibero.edu.co"
+    }
+  }
+  
